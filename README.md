@@ -11,3 +11,13 @@
 
 # 二、创建目录
 `cordova create app #app为入口目录` 
+
+# 三、添加平台
+`$ cordova platform add android`
+
+# 四、构建和运行
+- 构建
+`cordova build android`
+
+- 运行模拟器
+`cordova emulate android`
