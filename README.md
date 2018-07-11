@@ -21,3 +21,6 @@
 
 - 运行模拟器
 `cordova emulate android`
+
+- 输出目录查看
+`app\platforms\android\build`
