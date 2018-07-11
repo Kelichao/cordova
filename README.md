@@ -24,3 +24,11 @@
 
 - 输出目录查看
 `app\platforms\android\build`
+
+# 提示
+- 跳转内部webView,在config.xml中添加以下代码
+```xml
+    <!--配置WebView可以打开的外部链接-->
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />  
+```
