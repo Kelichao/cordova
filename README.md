@@ -25,6 +25,32 @@
 - 输出目录查看
 `app\platforms\android\build`
 
+# 重要插件
+- [调用摄像头](https://www.w3cschool.cn/cordova/cordova_camera.html)
+
+
+- 二维码扫描插件
+ `cordova plugin add https://github.com/wildabeast/BarcodeScanner.git`
+ - 并引入 
+ ```js
+ <script type="text/javascript" src="cordova_plugins.js"></script>
+ <a href="#" class="btn" onclick="scanCode();">Scan Code</a>
+<script type="text/javascript">
+function scanCode() {
+    cordova.plugins.barcodeScanner.scan(
+      function (result) {
+          alert("We got a barcode\n" +
+                "Result: " + result.text + "\n" +
+                "Format: " + result.format + "\n" +
+                "Cancelled: " + result.cancelled);
+      }, 
+      function (error) {
+          alert("Scanning failed: " + error);
+      }
+   );
+}
+</script>
+ ```
 # 提示
 - 跳转内部webView,在config.xml中添加以下代码
 ```xml
