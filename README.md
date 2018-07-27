@@ -63,7 +63,13 @@ function scanCode() {
 ```html
 <!--<script src="file:///android_asset/www/cordova.js" type="text/javascript" charset="UTF-8"></script> -->
 <script src="http://injection/www/cordova.js" type="text/javascript" charset="UTF-8"></script>
+    <!-- <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="cordova_plugins.js"></script> -->
+
 ```
+
+
+
 - 首先找到文件
 打开platforms/andriod/CordovaLib\src\org\apache\cordova\engine\SystemWebViewClient.java
 
