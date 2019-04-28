@@ -5,7 +5,7 @@
 
 1. NodeJS
 2. NPM
-3. [JDK安装与配置](https://jingyan.baidu.com/article/6dad5075d1dc40a123e36ea3.html)， [JDK下载地址](http://www.downza.cn/soft/27438.html)
+3. [JDK安装与配置](https://jingyan.baidu.com/article/6dad5075d1dc40a123e36ea3.html)， [JDK下载地址](http://www.downza.cn/soft/27438.html) （要特别注意的是，java -version 这个命令需要在环境变量保存完毕后运行才能看到）
 3. [Android SDK(找其中的SDK Tools)](https://www.androiddevtools.cn/)
 
 - 查看版本 `cordova -v`
