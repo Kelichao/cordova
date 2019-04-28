@@ -5,7 +5,7 @@
 
 1. NodeJS
 2. NPM
-3. [Android SDK](https://www.androiddevtools.cn/)
+3. [Android SDK(找其中的SDK Tools)](https://www.androiddevtools.cn/)
 
 - 查看版本 `cordova -v`
 
