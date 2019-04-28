@@ -5,6 +5,7 @@
 
 1. NodeJS
 2. NPM
+3. [JDK安装与配置](https://jingyan.baidu.com/article/6dad5075d1dc40a123e36ea3.html)
 3. [Android SDK(找其中的SDK Tools)](https://www.androiddevtools.cn/)
 
 - 查看版本 `cordova -v`
