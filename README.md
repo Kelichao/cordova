@@ -14,6 +14,7 @@
 `cordova create app #app为入口目录` 
 
 # 三、添加平台
+`$ cd app`
 `$ cordova platform add android`
 
 # 四、构建和运行
