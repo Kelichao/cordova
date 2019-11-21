@@ -1,7 +1,7 @@
 # cordova
 [打包教程](https://www.w3cschool.cn/cordova/cordova_environment_setup.html)
 
-# 一、环境
+# 一、环境123
 
 1. NodeJS
 2. NPM
