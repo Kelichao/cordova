@@ -31,8 +31,13 @@
 # 重要插件
 - [调用摄像头](https://www.w3cschool.cn/cordova/cordova_camera.html)
 
-
-- 二维码扫描插件
+- 相机插件
+ `cordova plugin add cordova-plugin-camera`
+- 获取设备MAC插件
+ `cordova plugin add com-badrit-macaddress`
+- 扫描插件
+ `cordova plugin add phonegap-plugin-barcodescanner`
+- 二维码扫描插件（备用）
  `cordova plugin add https://github.com/wildabeast/BarcodeScanner.git`
  - 并引入 
  ```js
